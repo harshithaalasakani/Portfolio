@@ -2,7 +2,7 @@
 🎯 My Personal Portfolio
 A responsive and minimalistic portfolio showcasing my projects, skills, and resume. Built with HTML, CSS, and JavaScript.
 
-🔗 Live Demo: [your portfolio live link here]
+🔗 Live Demo: https://harshithaalasakani.github.io/protfolio/
 
 💡 Features:
 

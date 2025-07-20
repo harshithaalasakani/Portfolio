@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alasakani Harshitha - Full-stack Developer & Game Designer</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Full-stack Developer & Game Designer specialized in AI and Data Science">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Alasakani Harshitha - Full-stack Developer & Game Designer">
+    <meta property="og:description" content="Full-stack Developer & Game Designer specialized in AI and Data Science">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        amber: {
+                            400: '#F59E0B',
+                            500: '#D97706'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    },
+                    fontSize: {
+                        '5xl': '3rem',
+                        '6xl': '4rem',
+                        '7xl': '5rem'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 border-b border-gray-200 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="text-2xl font-bold">
+                    <span class="text-amber-400">H</span>arshitha
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link relative py-2 transition-colors duration-200 hover:text-amber-400">Home</a>
+                    <a href="#about" class="nav-link relative py-2 transition-colors duration-200 hover:text-amber-400">About</a>
+                    <a href="#projects" class="nav-link relative py-2 transition-colors duration-200 hover:text-amber-400">Projects</a>
+                    <a href="#certifications" class="nav-link relative py-2 transition-colors duration-200 hover:text-amber-400">Certifications</a>
+                    <a href="#contact" class="nav-link relative py-2 transition-colors duration-200 hover:text-amber-400">Skills & Contact</a>
+                </div>
+                
+                <!-- Theme Toggle & Social Icons -->
+                <div class="flex items-center space-x-4">
+                    <button id="theme-toggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition-colors duration-200">
+                        <i class="fas fa-moon dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:inline"></i>
+                    </button>
+                    
+                    <div class="hidden sm:flex items-center space-x-3">
+                        <a href="https://github.com/harshithaalasakani" target="_blank" class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alasakani-harshitha-330899249/" target="_blank" class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:harshithaalasakani@gmail.com" class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Left: Hero Image -->
+                    <div class="order-2 lg:order-1 flex justify-center">
+                        <div class="relative">
+                            <img src="F:\Projectshtmlcssjs\Portfolio\harshitha-portfolio\pic.jpg" 
+                                 alt="Harshitha's portrait illustration" 
+                                 class="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl hero-image">
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Content -->
+                    <div class="order-1 lg:order-2 text-center lg:text-left">
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
+                            Turning Vision Into<br>
+                            <span class="text-amber-400">Reality</span> With<br>
+                            Code And Design.
+                        </h1>
+                        <p class="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
+                            As a skilled full-stack developer and Game designer, I turn innovative ideas into intuitive digital experiences. Explore my latest projects showcasing expertise in Python, Django, Unity, AI, DS and modern web development.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <a href="F:\Projectshtmlcssjs\Portfolio\harshitha-portfolio\2200080177 A.Harshitha.pdf" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-download mr-2"></i>
+                                Resume
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white dark:bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl sm:text-5xl font-bold text-center mb-16">
+                    Passion Fuels <span class="text-amber-400">Purpose!</span>
+                </h2>
+                
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Biography -->
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6">Biography</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                            Hi, I'm Harshitha, a web developer and Game designer with a passion for creating beautiful, functional, and user-centered digital experiences.I am always looking for new and innovative ways to bring client's visions to life.
+                        </p>
+                        <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                            I believe design is about more than just making things look pretty — it's about solving problems and creating enjoyable experiences for users. Whether I'm working on a website, mobile app, or digital product, I bring commitment to design excellence and user-centered thinking to every project.
+                        </p>
+                    </div>
+                    
+                    <!-- Image and Stats -->
+                    <div class="space-y-8">
+                        <div class="polaroid-frame mx-auto lg:mx-0"style = "margin-left: auto;">
+                            <img src="F:\Projectshtmlcssjs\Portfolio\harshitha-portfolio\hero-portrait.jpg" 
+                                 alt="Harshitha's portrait" 
+                                 class="w-64 h-64 object-cover">
+                                 
+                        </div>
+                        
+                        
+                        <!-- <div class="grid grid-cols-3 gap-6 text-center">
+                            <div>
+                                <div class="text-3xl font-bold text-amber-400">10+</div>
+                                <div class="text-sm text-gray-600 dark:text-gray-400">Satisfied Clients</div>
+                            </div>
+                            <div>
+                                <div class="text-3xl font-bold text-amber-400">15+</div>
+                                <div class="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
+                            </div>
+                            <div>
+                                <div class="text-3xl font-bold text-amber-400">4+</div>
+                                <div class="text-sm text-gray-600 dark:text-gray-400">Years of Experience</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <!-- Projects Section -->
+<section id="projects" class="py-20 bg-gray-50 dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl sm:text-5xl font-bold text-center mb-16">
+      Imagination Trumps <span class="text-amber-400">Knowledge!</span>
+    </h2>
+
+    <!-- Featured Project -->
+    <div class="mb-16">
+                    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
+                        <div class="grid lg:grid-cols-2">
+                            <div class="bg-gradient-to-br from-amber-100 to-orange-100 dark:from-amber-900 dark:to-orange-900 p-8 flex items-center justify-center">
+                                <div class="text-6xl text-amber-400">
+                                    <i class="fas fa-virus"></i>
+                                </div>
+                            </div>
+                            <div class="p-8 lg:p-12 flex flex-col justify-center">
+                                <h3 class="text-2xl font-bold mb-4">Covid-19 Tracker Website</h3>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="px-3 py-1 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Django</span>
+                                    <span class="px-3 py-1 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">REST APIs</span>
+                                    <span class="px-3 py-1 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Charts.js</span>
+                                </div>
+                                <p class="text-gray-600 dark:text-gray-400 mb-6">
+                                    Real-time Covid-19 tracker using Django that fetches live data via APIs to display confirmed cases, recoveries, and deaths across countries. Integrated interactive charts and tables for clear data visualization.
+                                </p>
+                                <a href="https://github.com/harshithaalasakani/covid_project" target="_blank" class="btn btn-primary w-fit">
+                                    Visit Project
+                                    <i class="fas fa-external-link-alt ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+    <!-- Other Projects Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Clash Zone Card -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+        <div class="bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900 dark:to-pink-900 p-8 flex items-center justify-center h-48">
+          <div class="text-5xl text-purple-400">
+            <i class="fas fa-gamepad"></i>
+          </div>
+        </div>
+        <div class="p-6 flex flex-col justify-between h-full">
+          <div>
+            <h3 class="text-xl font-bold mb-3">Clash Zone</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400 rounded-full text-xs">Unity</span>
+              <span class="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400 rounded-full text-xs">C#</span>
+              <span class="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400 rounded-full text-xs">Game Design</span>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+              Action-packed multiplayer game built in Unity 3D with immersive graphics, custom characters, and real-time battle mechanics.
+            </p>
+          </div>
+          <a href="https://github.com/harshithaalasakani/ClashZone" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-md border border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white transition">
+            Visit <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- AI-Powered Interview Practice -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+        <div class="bg-gradient-to-br from-green-100 to-blue-100 dark:from-green-900 dark:to-blue-900 p-8 flex items-center justify-center h-48">
+          <div class="text-5xl text-green-400">
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
+        <div class="p-6 flex flex-col justify-between h-full">
+          <div>
+            <h3 class="text-xl font-bold mb-3">AI-Powered Interview Practice</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-xs">Flask</span>
+              <span class="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-xs">OpenAI API</span>
+              <span class="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-xs">WebSpeech</span>
+              <span class="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-xs">AI-Automation</span>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+              Flask-based web app that simulates real-time interview scenarios using AI-driven Automation question generation and voice interaction.
+            </p>
+          </div>
+          <a href="https://github.com/harshithaalasakani/AiInterviewPracticeBot" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-md border border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white transition">
+            Visit <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Book Bliss -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+        <div class="bg-gradient-to-br from-red-100 to-yellow-100 dark:from-red-900 dark:to-yellow-900 p-8 flex items-center justify-center h-48">
+          <div class="text-5xl text-red-400">
+            <i class="fas fa-book"></i>
+          </div>
+        </div>
+        <div class="p-6 flex flex-col justify-between h-full">
+          <div>
+            <h3 class="text-xl font-bold mb-3">Book Bliss</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="px-2 py-1 bg-red-100 dark:bg-red-900 text-red-600 dark:text-red-400 rounded-full text-xs">React</span>
+              <span class="px-2 py-1 bg-red-100 dark:bg-red-900 text-red-600 dark:text-red-400 rounded-full text-xs">FastAPI</span>
+              <span class="px-2 py-1 bg-red-100 dark:bg-red-900 text-red-600 dark:text-red-400 rounded-full text-xs">HTML/CSS</span>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+              Intelligent book recommender that personalizes suggestions based on user mood and available reading time.
+            </p>
+          </div>
+          <a href="https://github.com/harshithaalasakani/book_bliss" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-md border border-blue-600 px-4 py-2 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white transition">
+            Visit <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-20 bg-white dark:bg-gray-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl sm:text-5xl font-bold text-center mb-16">
+                    <span class="text-amber-400">Certifications</span>
+                    
+                </h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2025</div>
+                        <div class="timeline-content">
+                            <h3 class="text-xl font-bold">NAT (Q5) Japanese</h3>
+                            <p class="text-gray-600 dark:text-gray-400">NAT</p>
+                            <a href="https://drive.google.com/file/d/11MItzIRR0jsfJ9quonGKexybNBulELs1/view"_blank" class="btn btn-primary w-fit">
+                                    Certificate
+                                    <i class="fas fa-external-link-alt ml-2"></i>
+                                </a>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2024</div>
+                        <div class="timeline-content">
+                            <h3 class="text-xl font-bold">Unity Certified User</h3>
+                            <p class="text-gray-600 dark:text-gray-400">Unity</p>
+                            <a href="https://drive.google.com/file/d/1_-HKwdvOl_dzgufFsN5oGUtHajw_-g7l/view" target="_blank" class="btn btn-primary w-fit">
+                                    Certificate
+                                    <i class="fas fa-external-link-alt ml-2"></i>
+                                </a>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2023</div>
+                        <div class="timeline-content">
+                            <h3 class="text-xl font-bold">Python Programming Certificate</h3>
+                            <p class="text-gray-600 dark:text-gray-400">IBM CE</p>
+                            <a href="https://drive.google.com/file/d/1tINUARLsBHmdXykHSaxZ7yQ1-c383NAi/view" target="_blank" class="btn btn-primary w-fit">
+                                    Certificate
+                                    <i class="fas fa-external-link-alt ml-2"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-900">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl sm:text-5xl font-bold text-center mb-16">
+                    Get In <span class="text-amber-400">Touch</span>
+                </h2>
+                
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Contact Form -->
+                    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+                        <h3 class="text-2xl font-bold mb-6">Let's Work Together</h3>
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" name="name" required 
+                                       class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-amber-400 focus:border-transparent transition-colors">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium mb-2">Your Email</label>
+                                <input type="email" id="email" name="email" required
+                                       class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-amber-400 focus:border-transparent transition-colors">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium mb-2">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required
+                                          class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-amber-400 focus:border-transparent transition-colors resize-vertical"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Info -->
+                    <div class="space-y-8">
+                        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+                            <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-amber-100 dark:bg-amber-900 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-envelope text-amber-400"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Email</div>
+                                        <div class="text-gray-600 dark:text-gray-400">harshithaalasakani@gmail.com</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-amber-100 dark:bg-amber-900 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-phone text-amber-400"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Phone</div>
+                                        <div class="text-gray-600 dark:text-gray-400">+91-9550951086</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <div class="w-12 h-12 bg-amber-100 dark:bg-amber-900 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-map-marker-alt text-amber-400"></i>
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Location</div>
+                                        <div class="text-gray-600 dark:text-gray-400">Khammam District, Telangana, India</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Skills -->
+                        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+                            <h3 class="text-2xl font-bold mb-6">Skills</h3>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Python</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Data Structures</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">HTML/CSS</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">SQL</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Game Development</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Django</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Artificial Intelligence</span>
+                                <span class="px-4 py-2 bg-amber-100 dark:bg-amber-900 text-amber-600 dark:text-amber-400 rounded-full text-sm">Git & GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="https://github.com/harshitha" target="_blank" class="p-3 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://linkedin.com/in/harshitha" target="_blank" class="p-3 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="mailto:harshitha@example.com" class="p-3 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-amber-400 hover:text-white transition-all duration-200">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400">
+                © 2025 Alasakani Harshitha. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
